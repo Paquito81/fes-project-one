@@ -9,24 +9,59 @@
     <script src="https://kit.fontawesome.com/c8e4d183c2.js" crossorigin="anonymous"></script>
 </head>
 <body>
-    <div class="row">
-       <div class="eQSJIi">
-        <section class="container">
-            <nav class="nav">
-            <a href="/" class="logo nav__link">logo</a>
+    <section class="landing">
+        <div class="row">
+            <nav>
+                <div class="nav__container">
+                <a href="/" class="logo nav__link">
+                    <img src="img/logo.2c489fc4.svg" alt="logo">Treact
+                </a>
+                </div>
                 <div class="nav__link--wrapper">
                     <ul>
                         <li><a href="/#" class="nav__link">About</a></li>
                         <li><a href="/#" class="nav__link">Blog</a></li>
                         <li><a href="/#" class="nav__link">Pricing</a></li>
                         <li><a href="/#" class="nav__link">Contact Us</a></li>
+                    </ul>
+                    <ul>
                         <li><a href="/#" class="nav__link nav__links--light">Login</a></li>
                         <li><a href="/#" class="nav__link nav__light">Sign up</a></li>
                     </ul>
+                    <button class="btn__menu">
+                        <i class="fa-solid fa-bars" onclick="openMenu()"></i>
+                    </button>
+                    <div class="menu__backdrop">
+                        <button class="btn__menu btn__menu--close ">
+                           <i class="fa-solid fa-xmark"></i>
+                        </button>
+                        <ul>
+                            <li>
+                                <a href="" class="menu__link" onclick="closeMenu()">About</a>
+                            </li>
+                            <li>
+                                <a href="" class="menu__link" onclick="closeMenu()">Blog</a>
+                            </li>
+                            <li>
+                                <a href="" class="menu__link" onclick="closeMenu()">Pricing</a>
+                            </li>
+                            <li>
+                                <a href="" class="menu__link" onclick="closeMenu()">Contact Us</a>
+                            </li>
+                            <li>
+                                <a href="" class="menu__link" onclick="closeMenu()">Login</a>
+                            </li>
+                            <li>
+                                <a href="" class="menu__link" onclick="closeMenu()">Contacts</a>
+                            </li>
+                        </ul>
+                    </div>    
                 </div>
             </nav>
-            <div class="template__info--container">
-                <div class="template__info">
+        </div>
+    </header>
+            <div class="template__info--container ">
+                <div class="template__info nav">
                     <div class="template">
                         <h1 class="">Beautiful React Templates <span class="text-green">for you.</span></h1>
                         <p>
@@ -49,9 +84,9 @@
             </div>
         </section>
     
-        <section class="container">
+        <section class="">
             <div>
-                <div>
+                <div class="row">
                 <h5 class="features">
                     <span class="text-green">Features</span>
                 </h5>
@@ -63,91 +98,91 @@
                 <p>
                      Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nihil maxime, dolores hic reprehenderit impedit commodi eum voluptate veniam est magnam soluta officiis consequuntur error labore distinctio suscipit! Nostrum, porro earum.
                 </p>
-                <div></div>
-                <div class="categories">
-                    <div class="categories__info">
-                        <span class="imageContainer">
-                            <img src="img/shield-icon.daefe14b.svg" alt="">
-                        </span>
-                        <span class="textContainer">
-                            <span class="title">Secure</span>
-                            <p>
-                                We strictly only deal with vendors that provide top notch security.
-                            </p>
+                <div class="services">
+                    <div class="service">
+                        <div class="categories__info">
+                            <span class="imageContainer">
+                                <img src="img/shield-icon.daefe14b.svg" alt="">
+                            </span>
+                            <span class="service__description">
+                                <span class="title">Secure</span>
+                                <p>
+                                    We strictly only deal with vendors that provide top notch security.
+                                </p>
                             
-                        </span>
+                            </span>
+                        </div>
                     </div>
-                </div>
-                <div class="categories">    
-                    <div class="categories__info">
-                        <span class="imageContainer">
-                            <img src="img/support-icon.f9253ffa.svg" alt="">
-                        </span>
-                        <span class="textContainer">
-                            <span class="title">24/7 Support</span>
-                            <p>
-                                We strictly only deal with vendors that provide top notch security.
-                            </p>
+                    <div class="service">    
+                        <div class="categories__info">
+                            <span class="imageContainer">
+                                <img src="img/support-icon.f9253ffa.svg" alt="">
+                            </span>
+                            <span class="service__description">
+                                <span class="title">24/7 Support</span>
+                                <p>
+                                    We strictly only deal with vendors that provide top notch security.
+                                </p>
                             
-                        </span>
+                            </span>
+                        </div>
                     </div>
-                </div>
-                <div class="categories">    
-                    <div class="categories__info">
-                        <span class="imageContainer">
-                            <img src="img/customize-icon.367468c9.svg" alt="">
-                        </span>
-                        <span class="textContainer">
-                            <span class="title">Customizable</span>
-                            <p>
-                                We strictly only deal with vendors that provide top notch security.
-                            </p>
-                        </span>
+                    <div class="service">   
+                        <div class="categories__info">
+                            <span class="imageContainer">
+                                <img src="img/customize-icon.367468c9.svg" alt="">
+                            </span>
+                            <span class="service__description">
+                                <span class="title">Customizable</span>
+                                <p>
+                                    We strictly only deal with vendors that provide top notch security.
+                                </p>
+                            </span>
+                        </div>
                     </div>
-                </div>
-                <div class="categories">    
-                    <div class="categories__info">
-                        <span class="imageContainer">
-                            <img src="img/reliable-icon.1367510a.svg" alt="">
-                        </span>
-                        <span class="textContainer">
+                    <div class="service">    
+                        <div class="categories__info">
+                            <span class="imageContainer">
+                                <img src="img/reliable-icon.1367510a.svg" alt="">
+                            </span>
+                            <span class="textContainer">
                             <span class="title">Reliable</span>
-                            <p>
-                                We strictly only deal with vendors that provide top notch security.
-                            </p>                
-                        </span>
+                                <p>
+                                    We strictly only deal with vendors that provide top notch security.
+                                </p>                
+                            </span>
+                        </div>
                     </div>
-                </div>
-                <div class="categories">    
-                    <div class="categories__info">
-                        <span class="imageContainer">
-                            <img src="img/fast-icon.dbb971a7.svg" alt="">
-                        </span>
-                        <span class="textContainer">
-                            <span class="title">Fast</span>
+                    <div class="service">    
+                        <div class="categories__info">
+                            <span class="imageContainer">
+                                <img src="img/fast-icon.dbb971a7.svg" alt="">
+                            </span>
+                            <span class="textContainer">
+                                <span class="title">Fast</span>
+                                    <p>
+                                        We strictly only deal with vendors that provide top notch security.
+                                    </p>
+                            </span>
+                        </div>
+                    </div>
+                    <div class="service">    
+                        <div class="categories__info">
+                            <span class="imageContainer">
+                                <img src="img/simple-icon.673b7e17.svg" alt="">
+                            </span>
+                            <span class="textContainer">
+                                <span class="title">Easy</span>
                                 <p>
                                     We strictly only deal with vendors that provide top notch security.
                                 </p>
-                        </span>
+                            </span>
+                        </div>
                     </div>
                 </div>
-                <div class="categories">    
-                    <div class="categories__info">
-                        <span class="imageContainer">
-                            <img src="img/simple-icon.673b7e17.svg" alt="">
-                        </span>
-                        <span class="textContainer">
-                            <span class="title">Easy</span>
-                                <p>
-                                    We strictly only deal with vendors that provide top notch security.
-                                </p>
-                        </span>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-    <section>
+            </div>    
+        </section>
+    <section class="container">
         <div>
             <div>
                 <div>
@@ -168,12 +203,12 @@
             </div>
         </div>
     </section>
-    <section></section>
-    <section></section>
-    <section></section>
-    <section></section>
-    <section></section>
-    <section></section>
+    <section class="container"></section>
+    <section class="container"></section>
+    <section class="container"></section>
+    <section class="container"></section>
+    <section class="container"></section>
+    <section class="container"></section>
    
     
 </body>

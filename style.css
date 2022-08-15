@@ -5,3 +5,87 @@
     font-family: 'Roboto', sans-serif;
 }
 
+.row {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    width: 40px;
+}
+
+a {
+   color: black;
+   font-size: 16px;
+   font-weight: bold;
+   text-decoration: none;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  font-weight: 900;
+  font-size: 24px;
+  margin-left: 0px ;
+}
+
+.nav__link--wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-weight: 700;
+    padding: 0 16px;
+}
+
+.nav__link {
+    margin: 10px;
+    letter-spacing: 0.025rem;
+}
+
+.nav__light {
+    border-radius: 9999px;
+    background-color: #3cb610;
+    color: white;
+    padding: 12px 32px;
+}
+
+ul {
+    display: flex;
+    align-items: center;
+
+}
+
+li {
+    list-style-type: none;
+
+}
+
+.text-green {
+   color: #3cb610;
+}
+
+.img__position {
+    min-width: 0%;
+    width: 100%;
+    max-width: 512px;
+}
+
+.email__btn {
+    position: relative;
+    max-width: 448px;
+    text-align: center;
+    border: 0 solid #e5e7eb;
+}
+
+h1 {
+    font-weight: 700;
+    font-size: 30px;
+    color: rgba(26, 32, 44);
+}
+
+.template {
+    width: 40%;
+} 
