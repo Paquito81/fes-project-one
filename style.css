@@ -6,3 +6,61 @@
     font-family: system-ui,-apple-system,"Segoe UI",Roboto,Helvetica,Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji";
 }
 
+nav {
+    padding-top: 32px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+a {
+    text-decoration: none;
+
+}
+
+li {
+    list-style-type: none;
+}
+
+.row {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+/*
+NAVIGATION 
+*/
+
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+.logo__img {
+    width: 40px;
+    margin-right: 12px;
+}
+
+.logo__header {
+    font-size: 24px;
+    font-weight: 900;
+}
+
+.nav__links {
+    display: flex;
+}
+
+.nav__link {
+    font-size: 16px;
+    font-weight: 900;
+    color: black;
+    margin: 0 10px;
+    border-color: transparent;
+    transition-duration: 300ms;
+}
+
+.nav__link:hover {
+    color: #6415ff;
+    border-color: #6415ff;
+}
