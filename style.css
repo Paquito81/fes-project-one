@@ -36,6 +36,7 @@ li {
     width: 100%;
     max-width: 1200px;
     margin: 0 auto;
+    margin-bottom: 100px;
 }
 
 /*
@@ -62,7 +63,7 @@ NAVIGATION
 }
 
 .nav__link {
-    font-size: 12px;
+    font-size: 18px;
     font-weight: 600;
     color: black;
     margin: 0 24px;
@@ -263,7 +264,7 @@ h2 {
     font-weight: 900;
     letter-spacing: 0.025em;
     text-align: center;
-    font-size: 40px;
+    font-size: 50px;
     width: 100%;
 }
 
@@ -408,7 +409,7 @@ STEPS
 
 h6 {
     line-height: 1;
-    font-size: 20px;
+    font-size: 24px;
     font-weight: 600;
     color: #243e63;
 }
@@ -490,6 +491,10 @@ TESTIMONIAL
 
 */
 
+
+.testimonial__container {
+    margin-bottom: 200px;
+}
 .testimonial__text {
     text-transform: uppercase;
     letter-spacing: 0.1em;
@@ -508,6 +513,7 @@ PRICING
     margin: 0 7px;
     justify-content: center;
     flex-direction: column;
+    margin-bottom: 200px;
 }
 
 .pricing__header {
@@ -665,6 +671,46 @@ PRICING
     width: 41.6667%;
 }
 
+/* 
+
+FAQS 
+
+*/
+
+.multiple__questions {
+    position: relative;
+    margin-top: 48px;
+    max-width: 896;
+    margin-bottom: 300px;
+}
+
+.single__question {
+    margin-top: 20px;
+    border-radius: 8px;
+    background-color: rgb(237, 242, 247);
+    max-width: 100%;
+    padding: 30px 0;
+    font-size: 24px;
+    font-weight: 600;
+}
+
+.single__question--text {
+    padding: 24px;
+}
+
+.faqs__header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 32px;
+}
+
+/* 
+
+FOOTER
+
+*/
+
 .footer__container {
     display: flex;
     flex-wrap: wrap;
@@ -709,4 +755,26 @@ PRICING
     margin-top: 1.5rem;
     font-size: 0.875rem;
     font-weight: 500;
+}
+
+@media (min-width: 550px) {
+    h2 {
+        font-size: 12px;
+    }
+    
+
+
+}
+
+@media (max-width: 640px) {
+    .input__wrapper {
+        display: block;
+    }
+
+    .email__btn {
+        position: static;
+        width: 100%;
+        padding: 16px 0px;
+        margin: 16px 0;
+    }
 }
